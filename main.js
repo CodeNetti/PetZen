@@ -37,7 +37,7 @@ function submitForm(event) {
     var formData = new FormData(form);
     
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://formsubmit.co/magolokovirus@gmail.com", true);
+    xhr.open("POST", "https://formsubmit.co/contato@caspetzen.com", true);
     
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -74,7 +74,7 @@ function scrollToPlanoDayCare() {
     window.scrollTo({ top: topPos, behavior: "smooth" });
 }
 function scrollToPlanoDaySobre(){
-    var contatoSection = document.getElementById("desc-moto");
+    var contatoSection = document.getElementById("desc-zen");
     var offset = 80; // Ajuste este valor para definir a quantidade de deslocamento para cima
     var topPos = contatoSection.offsetTop - offset;
     window.scrollTo({ top: topPos, behavior: "smooth" });
@@ -86,7 +86,7 @@ function scrollToPlanoHospedagem() {
     window.scrollTo({ top: topPos, behavior: "smooth" });
 }
 function scrollToPlanoHospedagemSobre() {
-    var contatoSection = document.getElementById("desc-moto");
+    var contatoSection = document.getElementById("desc-zen");
     var offset = 80; // Ajuste este valor para definir a quantidade de deslocamento para cima
     var topPos = contatoSection.offsetTop - offset;
     window.scrollTo({ top: topPos, behavior: "smooth" });

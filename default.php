@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="menu-mobile.css">
+    <link rel="icon" href="assetsPet/Logo.ico">
     <title>Pet Zen</title>
 </head>
 
@@ -20,7 +21,7 @@
                 <img class="logo" src="assetsPet/LogoExtenso.png" alt="">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="default.php">Home</a></li>
                         <li><a style="cursor: pointer;" onclick="scrollToContact()">Sobre Nós</a></li>
                         <li><a href="#cards-flex">Serviços</a></li>                       
                         <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
@@ -46,7 +47,7 @@
         <h2>Menu</h2>
 
         <ul>
-            <li><a onclick="fecharNav()" href="index.html">Home</a></li>
+            <li><a onclick="fecharNav()" href="default.php">Home</a></li>
             <li><a onclick="fecharNav()" href="daycare.html">Day Care</a></li>
             <li><a onclick="fecharNav()" href="hospedagem.html">Hospedagem</a></li>
             <li><a onclick="fecharNav()" href="#cards-flex">Serviços</a></li>
@@ -64,7 +65,7 @@
     <section class="banner" id="banner">
 
         <article class="banner-imagem">
-            <h1>O refúgio do seu pet!</h1>
+            
             <a style="cursor: pointer;" onclick="scrollToSobre()">Conheça-nos</a>
 
         </article>
@@ -177,6 +178,8 @@
         <div>
             <h1 class="title">Entre em contato conosco!</h1>
         </div>
+		
+		
 
         <div class="class-contato">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.300605362725!2d-46.706475130224604!3d-23.529799299999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef877a61b4b1f%3A0x150b8f575400d71a!2sR.%20Aur%C3%A9lia%2C%20891%20-%20Vila%20Romana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005046-000!5e0!3m2!1spt-BR!2sbr!4v1688734302205!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -191,7 +194,9 @@
                 </div>
                 <button>ENVIAR</button>
             </form>
-            <!--<form id="contactForm" onsubmit="submitForm(event)">
+			
+				
+            <!-- <form id="contactForm" onsubmit="submitForm(event)">
                 <input type="text" name="Nome" placeholder="Digite seu nome" class="input" required>
                 <input type="email" name="Email" placeholder="Digite seu e-mail"  class="input" required>
                 <input type="number" name="Telefone" placeholder="Digite seu Telefone" class="input">
@@ -202,15 +207,18 @@
                 
                 <input type="hidden" name="_subject" value="Novo Contato!">
                 <input type="text" name="_honey" style="display:none">
-                <input type="hidden" name="_captcha" value="false"> ---->
-            </form>
+                <input type="hidden" name="_captcha" value="false">
+            </form> -->
         </div>
     </main>
     
 
     <!-- BOTAO WHATSAPP -->
-
-    <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">
+	<a target="_blank" class="btnInsta" href="https://www.instagram.com/casapetzen/">
+        <img width="65" src="icons/instagram.png" alt="">
+    </a>
+    <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=[Site] 
+    Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">
         <img width="65" src="icons/whatsapp.png" alt="">
     </a>
 
@@ -261,11 +269,11 @@
 
     </footer>
 
-    <div class="madeby">
+     <div class="madeby">
         <p>© 2023 Pet Zen. Todos os direitos reservados.</p>
         <p>
-            Desenvolvido por <a href="https://www.linkedin.com/in/guilherme-sella-588390273/">Guilherme Sella</a>
-            e <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/">Raphael Simonetti</a>
+            Desenvolvido por <a href="https://www.linkedin.com/in/guilherme-sella-588390273/" target="_blank">Guilherme Sella</a>
+            e <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/" target="_blank">Raphael Simonetti</a>
         </p>
     </div>
 

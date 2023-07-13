@@ -130,7 +130,7 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: no-repeat center/cover url(assetsPet/Fotoprincipal12080.jpg);
+    background: no-repeat center/cover url(assetsPet/Fotoprincipal1920.jpg);
     padding: 0 15%;
 }
 .banner .banner-imagem h1 {
@@ -145,7 +145,7 @@ button {
     color: white;
     font-size: 1.2rem;
     padding: 12px 15px;
-    border-radius: 3px;
+    border-radius: 15px;
     transition: .5s;
     border: 1px solid white;
 }
@@ -380,6 +380,19 @@ iframe {
     transition: .5s;
 }
 .btnWhatsapp:hover{
+    transform: translateY(-15px);
+}
+/* BOTAO INSTAGRAM */
+
+.btnInsta{
+    
+    position: fixed;
+    right: 20px;
+    top: 74%;
+    z-index: 100;
+    transition: .5s;
+}
+.btnInsta:hover{
     transform: translateY(-15px);
 }
 

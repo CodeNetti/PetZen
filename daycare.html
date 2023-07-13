@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="daycare.css">
     <link rel="stylesheet" href="menu-mobile.css">
+    <link rel="icon" href="assetsPet/Logo.ico">
     <title>Pet Zen</title>
 </head>
 
@@ -17,12 +18,12 @@
     <header class="header ">
         <div>
             <nav class="navbar">
-             <a href="index.html">
+             <a href="default.php">
                 <img class="logo" src="assetsPet/LogoExtenso.png" alt="">
              </a>
                 <nav>
                     <ul>
-                        <li><a  href="index.html">Home</a></li>
+                        <li><a  href="default.php">Home</a></li>
                         <li><a  style="cursor: pointer;" onclick="scrollToPlanoDaySobre()">Sobre</a></li>
                         <li><a style="cursor: pointer;" onclick="scrollToPlanoDayCare()">Planos</a></li>
                         <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
@@ -48,7 +49,7 @@
         <h2>Menu</h2>
 
         <ul>
-            <li><a onclick="fecharNav()" href="index.html">Home</a></li>
+            <li><a onclick="fecharNav()" href="default.php">Home</a></li>
             <li><a onclick="fecharNav()" href="hospedagem.html">Hospedagem</a></li>
             <li><a  style="cursor: pointer;" onclick="fecharNav(),scrollToPlanoDaySobre()">Sobre</a></li>
             <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToPlanoDayCare()">Planos</a></li>
@@ -73,16 +74,16 @@
 
    
 
-    <!-- MAIN NOVA MOTO  -->
+    
 
-     <main class="nova-moto" id="desc-moto">
-        <section class="nova-moto-image">
+     <main class="nova-zen" id="desc-zen">
+        <section class="nova-zen-image">
             <figure>
                 <img data-aos="slide-left" data-aos-duration="1500" src="assetsPet/dogbom.png" alt="">
             </figure>
         </section>
         <br>
-        <section class="nova-moto-text">
+        <section class="nova-zen-text">
             <article>
                 <h1>Day Care</h1>
                  <br>
@@ -94,10 +95,10 @@
     </main> 
    
 
-    <!-- DESCRIÇÃO MOTO -->
+    
 
-    <article class="desc-moto">
-        <figcaption class="desc-moto-image">
+    <article class="desc-zen">
+        <figcaption class="desc-zen-image">
             <img data-aos="slide-right" data-aos-duration="1500"
                 src="assetsPet/pngdo2.png" alt="">
             <div>
@@ -106,24 +107,37 @@
             </div>
         </figcaption>
 
-        <section class="desc-moto-section">
-            <div class="quadradinhos">
-                <img src="icons/icons8-parque-para-cães-60.png" alt="">
-                <p>Reforço Positivo</p>
-            </div>
-            <div class="quadradinhos">
-                <img src="icons/dog.png" alt="">
-                <p>Cromoterapia</p>
-            </div>
-            <div class="quadradinhos">
-                <img src="icons/música.png" alt="">
-                <p>Musicaterapia</p>
-            </div>
-            <div class="quadradinhos">
-                <img src="icons/icons8-dog-house-60.png" alt="">
-                <p>Método Grounding</p>
-            </div>
-        </section>
+<section class="desc-zen-section">
+				<div class="quadradinhos">
+					<img src="icons/icons8-parque-para-cães-60.png" alt="">
+					<h2>Brincadeiras</h2>
+					<p>O reforço positivo é uma abordagem eficaz e ética de treinamento, que fortalece o vínculo entre o dono e o pet, promove uma relação de confiança e ajuda a estabelecer comportamentos desejados de forma mais harmoniosa e positiva. </p>
+					<br>
+					<a href="texto.html?text=Brincadeiras">Ver mais</a>
+				</div>
+				<div class="quadradinhos">
+					<img src="icons/dog.png" alt="">
+					<h2>Cronomoterapia</h2>
+					<p>A cromoterapia é uma terapia complementar que utiliza as cores para auxiliar na restauração do equilíbrio físico e energético do corpo do cão. Essa prática terapêutica se baseia nas sete cores do arco-íris, cada uma com suas propriedades específicas e efeitos terapêuticos.</p>
+                    <br>
+					<a href="texto.html?text=Cromoterapia">Ver mais</a>
+				  </div>
+				<div class="quadradinhos">
+					<img src="icons/música.png" alt="">
+					<h2>Musicaterapia</h2>
+					<p>A musicoterapia é uma ciência que estuda como a música e o som podem ser utilizados com fins terapêuticos, considerando sua interação com os indivíduos. A música possui elementos como notas, melodia e ritmo que têm a capacidade de acionar áreas específicas no cérebro dos ouvintes, desencadeando efeitos e sensações benéficas para a saúde e o bem-estar. </p>
+                    <br>
+					 <a href="texto.html?text=MusicaTerapia">Ver mais</a>
+				   <p></p>
+				</div>
+				<div class="quadradinhos">
+					<img src="icons/icons8-dog-house-60.png" alt="">
+					<h2>Método Grounding</h2>
+					<p>O método grounding, também conhecido como "earthing" ou "conexão com a terra," é uma prática terapêutica que envolve o contato direto do corpo do cão com a superfície da terra, como grama, terra ou areia, promovendo bem-estar físico e emocional, e contribuindo para uma saúde geral mais equilibrada. </p>
+					<br>
+					<a href="texto.html?text=Grounding">Ver mais</a> 
+				</div>
+			</section>
 
     </article> 
 
@@ -143,7 +157,7 @@
               
         </section>
 
-    <!--  -->
+  
 
     </section>
    <main class="contato">
@@ -169,6 +183,9 @@
 
       <!-- BOTAO WHATSAPP -->
 
+		<a target="_blank" class="btnInsta" href="https://www.instagram.com/casapetzen/">
+        <img width="65" src="icons/instagram.png" alt="">
+    </a>
     
       <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">
         <img width="65" src="icons/whatsapp.png" alt="">
@@ -223,8 +240,8 @@
     <div class="madeby">
         <p>© 2023 Pet Zen. Todos os direitos reservados.</p>
         <p>
-            Desenvolvido por <a href="https://www.linkedin.com/in/guilherme-sella-588390273/">Guilherme Sella</a>
-            e <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/">Raphael Simonetti</a>
+            Desenvolvido por <a href="https://www.linkedin.com/in/guilherme-sella-588390273/" target="_blank">Guilherme Sella</a>
+            e <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/" target="_blank">Raphael Simonetti</a>
         </p>
     </div>
 

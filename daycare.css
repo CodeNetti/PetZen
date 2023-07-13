@@ -197,7 +197,7 @@ button {
 
 /*MAIN NOVO PRODUTO*/
 
-.nova-moto {
+.nova-zen {
     overflow: hidden;
     padding: 7vh 20px 20vh 20px;
     background-color: rgba(0, 0, 0, 0.875);
@@ -208,14 +208,14 @@ button {
 
 
 }
-.nova-moto-text {
+.nova-zen-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: unsafe;
     width: 80%;
 }
-.nova-moto article {
+.nova-zen article {
     padding: 0 13%;
     display: flex;
     flex-direction: column;
@@ -223,17 +223,17 @@ button {
     justify-content: center;
 
 }
-.nova-moto article h1 {
+.nova-zen article h1 {
     font-size: 3.8em;
     font-weight: 600;
     color: rgb(255, 128, 0);
 }
-.nova-moto article p {
+.nova-zen article p {
     font-size: 1.6rem;
     color: white;
 
 }
-.nova-moto article a {
+.nova-zen article a {
     margin-top: 25px;
     padding: 10px 20px;
     border: 1px solid white;
@@ -243,10 +243,10 @@ button {
     font-size: 1.7rem;
     transition: 0.4s;
 }
-.nova-moto article a:hover {
+.nova-zen article a:hover {
     background-color: rgb(255, 128, 0);
 }
-.nova-moto-image {
+.nova-zen-image {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -255,31 +255,31 @@ button {
 }
 @media screen and (max-width:1250px) {
 
-    .nova-moto .nova-moto-text article {
+    .nova-zen .nova-moto-text article {
         padding: 0%;
 
     }
 
-    .nova-moto-text {
+    .nova-zen-text {
         width: 100%;
     }
 
-    .nova-moto .nova-moto-text article h1 {
+    .nova-zen .nova-moto-text article h1 {
         font-size: 2.4rem;
     }
 
-    .nova-moto .nova-moto-text article p {
+    .nova-zen .nova-moto-text article p {
         font-size: 1.5rem;
     }
 
-    .nova-moto .nova-moto-text article a {
+    .nova-zen .nova-moto-text article a {
         font-size: 1.4rem;
     }
 
 }
 
 @media screen and (max-width:360px) {
-    .nova-moto-image figure img {
+    .nova-zen-image figure img {
         padding-left: 37px;
 
     }
@@ -288,84 +288,98 @@ button {
 
 /* DESCRIÇÃO DAYCARE */
 
-.desc-moto {
+.desc-zen {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f4f4f4c8;
     justify-content: center;
 }
-.desc-moto-image {
+.desc-zen-image {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.desc-moto-image img {
+.desc-zen-image img {
     position: relative;
     top: -170px;
 }
-.desc-moto-image div {
+.desc-zen-image div {
     padding: 60px;
     position: relative;
     top: -170px;
 }
-.desc-moto-image div h1 {
+.desc-zen-image div h1 {
     text-align: center;
     color: rgb(255, 128, 0);
     font-size: 3rem;
     font-weight: 500;
 }
-.desc-moto-image div p {
+.desc-zen-image div p {
     text-align: center;
     font-size: 2rem;
 }
-.desc-moto-section .quadradinhos {
+.desc-zen-section .quadradinhos {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    border-radius: 10px;
     text-align: center;
-    gap: 10px;
-    padding: 20px 0;
-    width: 200px;
+    padding:  35px 10px;
+    width: 95vw;
+    max-width: 400px;
+    max-height: 450px;
     border: 3.5px solid rgb(14, 213, 70);
     transition: 0.5s;
 }
-.desc-moto-section .quadradinhos:hover {
+.desc-zen-section .quadradinhos:hover {
     transform: translateY(-10px);
 }
-.desc-moto-section .quadradinhos p {
-    font-size: 1.4rem;
+.desc-zen-section .quadradinhos p {
+    font-size: 1rem;
+    max-height: 400px;
+    
 }
-.desc-moto-section {
+.desc-zen-section .quadradinhos h2{
+    color: rgb(14, 213, 70) ;
+    font-weight: bolder;
+}
+
+.desc-zen-section .quadradinhos a{
+    background-color:transparent;
+    color: rgb(14, 213, 70) ;
+    font-weight: bold;
+    padding:  15px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .8s;
+}
+
+.desc-zen-section .quadradinhos a:hover{
+    background-color: rgb(14, 213, 70) ;
+    color: white;
+}
+.desc-zen-section {
     padding: 2%;
     position: relative;
     top: -180px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    grid-gap: 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
 }
 @media screen and (max-width:700px) {
-    .desc-moto-image img {
+    .desc-zen-image img {
         width: 60vw;
         top: -100px;
         min-width: 300px;
     }
 
-    .desc-moto-image div h1 {
+    .desc-zen-image div h1 {
         font-size: 2.5rem;
-    }
-}
-@media screen and (max-width:1000px) {
-    .desc-moto-section {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media screen and (max-width:630px) {
-    .desc-moto-section {
-        grid-template-columns: 1fr;
     }
 }
 
@@ -429,7 +443,7 @@ iframe {
 }
 
 @media (max-width:815px) {
-    .nova-moto-image figure img {
+    .nova-zen-image figure img {
         width: 95vw;
         min-width: 490px;
     }
@@ -498,6 +512,20 @@ iframe {
     transition: .5s;
 }
 .btnWhatsapp:hover{
+    transform: translateY(-15px);
+}
+
+/* BOTAO INSTAGRAM */
+
+.btnInsta{
+    
+    position: fixed;
+    right: 20px;
+    top: 74%;
+    z-index: 100;
+    transition: .5s;
+}
+.btnInsta:hover{
     transform: translateY(-15px);
 }
 
