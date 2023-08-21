@@ -8,8 +8,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="daycare.css">
-    <link rel="stylesheet" href="menu-mobile.css">
+    <link rel="stylesheet" href="css/daycare.css">
+    <link rel="stylesheet" href="css/menu-mobile.css">
     <link rel="icon" href="assetsPet/Logo.ico">
     <title>Pet Zen</title>
 </head>
@@ -53,7 +53,7 @@
             <li><a onclick="fecharNav()" href="hospedagem.html">Hospedagem</a></li>
             <li><a  style="cursor: pointer;" onclick="fecharNav(),scrollToPlanoDaySobre()">Sobre</a></li>
             <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToPlanoDayCare()">Planos</a></li>
-            <li><a onclick="fecharNav()" href="#footer">Contato</a></li>
+            <li><a onclick="fecharNav()" href="#Ctc">Contato</a></li>
         </ul>
 
 
@@ -117,14 +117,14 @@
 				</div>
 				<div class="quadradinhos">
 					<img src="icons/dog.png" alt="">
-					<h2>Cronomoterapia</h2>
+					<h2>Cromoterapia</h2>
 					<p>A cromoterapia é uma terapia complementar que utiliza as cores para auxiliar na restauração do equilíbrio físico e energético do corpo do cão. Essa prática terapêutica se baseia nas sete cores do arco-íris, cada uma com suas propriedades específicas e efeitos terapêuticos.</p>
                     <br>
 					<a href="texto.html?text=Cromoterapia">Ver mais</a>
 				  </div>
 				<div class="quadradinhos">
 					<img src="icons/música.png" alt="">
-					<h2>Musicaterapia</h2>
+					<h2>Musicoterapia</h2>
 					<p>A musicoterapia é uma ciência que estuda como a música e o som podem ser utilizados com fins terapêuticos, considerando sua interação com os indivíduos. A música possui elementos como notas, melodia e ritmo que têm a capacidade de acionar áreas específicas no cérebro dos ouvintes, desencadeando efeitos e sensações benéficas para a saúde e o bem-estar. </p>
                     <br>
 					 <a href="texto.html?text=MusicaTerapia">Ver mais</a>
@@ -165,19 +165,19 @@
         <div>
             <h1 class="title">Entre em contato conosco!</h1>
         </div>
-
         <div class="class-contato">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.300605362725!2d-46.706475130224604!3d-23.529799299999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef877a61b4b1f%3A0x150b8f575400d71a!2sR.%20Aur%C3%A9lia%2C%20891%20-%20Vila%20Romana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005046-000!5e0!3m2!1spt-BR!2sbr!4v1688734302205!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <form class="Contato" id="contactForm" onsubmit="submitForm(event)">
+            <form  action="php/Envia.php" name="formEnvia" method="POST" class="Contato" id="Ctc">
+                
                 <div class="inputs">
-                    <input type="text"  id= "teste" class="input"  placeholder="Nome"  required>
-                    <input type="email" id="teste" class="input" placeholder="E-mail" required/>
-                    
-                    <input type="text" required id="teste" class="input" placeholder="Número de Telefone" />
-                    <textarea required name="" placeholder="Escreva uma mensagem:" id="" cols="30" rows="10"></textarea>
+                    <input type="text" name="Nome"  id= "teste" class="input"  placeholder="Nome"  required>
+                    <input type="email" name="Email" id="teste" class="input" placeholder="E-mail" required/>                   
+                    <input type="number" name="Telefone" required id="teste" class="input" placeholder="Número de Telefone" />
+                    <textarea required  name="Mensagem" placeholder="Escreva uma mensagem:" id="" cols="30" rows="10"></textarea>
                 </div>
-                <button>ENVIAR</button>
+                 <button type="submit">Enviar</button>
             </form>
+			  
         </div>
     </main>
 
@@ -251,6 +251,6 @@
     </script>
 </body>
 
-<script src="main.js"></script>
+<script src="Js/main.js"></script>
 
 </html>
