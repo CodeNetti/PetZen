@@ -33,7 +33,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul>
                         <li><a href="default.php">Home</a></li>
                         <li><a style="cursor: pointer;" onclick="scrollToContact()">Sobre Nós</a></li>
-                        <li><a href="#cards-flex">Serviços</a></li>                       
+                        <li><a href="#cards-flex">Serviços</a></li>
+                        <li><a href="Pages/galeria.html">Fotos</a></li>                       
                         <li><a href="#Ctc">Contato</a></li>
                     </ul>
                     
@@ -61,6 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a onclick="fecharNav()" href="Pages/daycare.html">Day Care</a></li>
             <li><a onclick="fecharNav()" href="Pages/hospedagem.html">Hospedagem</a></li>
             <li><a onclick="fecharNav()" href="#cards-flex">Serviços</a></li>
+            <li><a onclick="fecharNav()" href="Pages/galeria.html">Fotos</a></li>    
             <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToSobre()" >Sobre Nós</a></li>
             <li><a onclick="fecharNav()" href="#Ctc">Contato</a></li>
             
@@ -98,7 +100,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Nosso ambiente está localizado em área nobre no meio da cidade, no bairro da Vila Romana zona oeste de São Paulo e com fácil acesso à Marginal Pinheiros.</p>
                 
             </div>
-            <img src="assetsPet/Galeria.jpg" alt="" class="sobre-nos-img">
+            <div class="card">
+              <a href="Pages/galeria.html">
+              <img src="assetsPet/Galeria.jpg" alt="" class="sobre-nos-img">
+              </a>
+               <a href="Pages/galeria.html">
+                <div class="card-content">
+                    <span class="card-title">Galeria de Fotos</span>
+                    <span class="card-ver-mais">Ver mais</span>
+                </div>
+               </a>
+            </div>
+            
         </div>
 
     </section>
@@ -173,7 +186,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<a target="_blank" class="btnInsta" href="https://www.instagram.com/casapetzen/">
         <img width="65" src="icons/instagram.png" alt="">
     </a>
-    <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=[Site]Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">
+    <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=Olá Casa PetZen! Gostaria de entrar em contato">
         <img width="65" src="icons/whatsapp.png" alt="">
     </a>
 
@@ -188,7 +201,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="listFooter">
             <h2>Atendimento</h2>
             <ul>
-                <li><a target="_blank" href="https://wa.me/5511949995555?text=[site]Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">Fale conosco</a></li>
+                <li><a target="_blank" href="https://wa.me/5511949995555?text=Olá Casa PetZen! Gostaria de entrar em contato">Fale conosco</a></li>
                 <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
                
             </ul>
