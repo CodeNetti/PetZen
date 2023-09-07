@@ -11,19 +11,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu-mobile.css">
     <link rel="icon" href="assetsPet/Logo.ico">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-04X0D24BYP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
     
-      gtag('config', 'G-04X0D24BYP');
-    </script>
+  
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PMXPBFD5');</script>
+<!-- End Google Tag Manager -->
     <title>Casa PetZen</title>
 </head>
 
 <body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMXPBFD5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="header ">
         <div>
             <nav class="navbar">
@@ -57,8 +58,8 @@
 
         <ul>
             <li><a onclick="fecharNav()" href="default.php">Home</a></li>
-            <li><a onclick="fecharNav()" href="daycare.html">Day Care</a></li>
-            <li><a onclick="fecharNav()" href="hospedagem.html">Hospedagem</a></li>
+            <li><a onclick="fecharNav()" href="Pages/daycare.html">Day Care</a></li>
+            <li><a onclick="fecharNav()" href="Pages/hospedagem.html">Hospedagem</a></li>
             <li><a onclick="fecharNav()" href="#cards-flex">Serviços</a></li>
             <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToSobre()" >Sobre Nós</a></li>
             <li><a onclick="fecharNav()" href="#Ctc">Contato</a></li>
@@ -87,7 +88,14 @@
             
             <div class="texto-sobre" >
                 <h1 class="title">Sobre Nós</h1>
-                <p>A Casa PetZen é uma creche de cães dedicada a oferecer um ambiente espaçoso, amoroso e seguro para os nossos hóspedes de quatro patas. Aqui, o bem-estar e a felicidade dos cães estão no centro de tudo o que fazemos. Nossa equipe dedicada está comprometida em proporcionar o melhor cuidado para os cães, com muito carinho, atenção e atividades emocionantes. Sabemos o quanto esses companheiros de quatro patas são importantes para você. Estamos aqui para oferecer um ambiente acolhedor e tranquilo, onde os cães se sentirão amados e protegidos.</p>
+                    <p>A Casa Pet Zen é uma creche e hotel que oferece serviços aos tutores de cães que desejam proporcionar interação e companhia a seus animais enquanto estiverem fora de casa (trabalhando ou viajando). 
+                    <br>
+                    
+                    Um dos diferenciais é o espaço amplo e acolhedor, provido de estímulos realmente naturais (plantas, terra e grama) e atividades físicas (brincadeiras) que reduzem a ansiedade, estimulam a socialização e promovem muito gasto de energia.
+
+                    <br>
+                    
+                    Nosso ambiente está localizado em área nobre no meio da cidade, no bairro da Vila Romana zona oeste de São Paulo e com fácil acesso à Marginal Pinheiros.</p>
                 
             </div>
             <img src="assetsPet/Galeria.jpg" alt="" class="sobre-nos-img">
@@ -101,10 +109,10 @@
         </div>
         <section class="card-section" data-aos="fade-up" data-aos-duration="500">
             <div  class="card">
-                <a href="daycare.html">
+                <a href="Pages/daycare.html">
                     <img src="assetsPet/DAYCAREPT1.jpg" alt="">
                 </a>
-               <a href="daycare.html">
+               <a href="Pages/daycare.html">
                 <div class="card-content">
                     <span class="card-title">Day Care</span>
                     <span class="card-ver-mais">Ver mais</span>
@@ -112,10 +120,10 @@
                </a>
             </div>
             <div class="card">
-              <a href="hospedagem.html">
+              <a href="Pages/hospedagem.html">
                 <img src="assetsPet/Hospedagemm.jpg" alt="">
               </a>
-               <a href="hospedagem.html">
+               <a href="Pages/hospedagem.html">
                 <div class="card-content">
                     <span class="card-title">Hospedagem</span>
                     <span class="card-ver-mais">Ver mais</span>
@@ -185,12 +193,12 @@
                
             </ul>
         </div>
-        <div class="listFooter">
+         <div class="listFooter">
             <h2>Informações</h2>
             <ul>
-                <li><a href="">contato@casapetzen.com.br</a></li>
-                <li><a href="">(11)94999-5555</a></li>
-                <li><a href="">Rua Aurélia 891, Vila Romana - São Paulo SP</a></li>
+                <li>contato@casapetzen.com.br</li>
+                <li>(11)94999-5555</li>
+                <li>Rua Aurélia 891, Vila Romana - São Paulo SP</li>
             </ul>
         </div>
         

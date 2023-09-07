@@ -4,7 +4,7 @@
   $email = $_POST['Email'];
   $tel = $_POST['Telefone'];
   $msg = $_POST['Mensagem'];
-  $From = 'teste@g,ail.com';
+  $From = $email;
  
 
   //Compo E-mail
@@ -19,7 +19,7 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "netticorp@gmail.com";
+  $destino = "contato@casapetzen.com.br";
   $assunto = "Contato Formulario";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
@@ -34,5 +34,5 @@
   mail($destino, $assunto, $arquivo, $headers);
   
   
-  header("Location: thanks.html");
+  header("Location: Pages/thanks.html");
 ?>

@@ -8,32 +8,38 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/thanks.css">
-    <link rel="stylesheet" href="css/menu-mobile.css">
-    <link rel="icon" href="assetsPet/Logo.ico">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-04X0D24BYP"></script>
+    <link rel="stylesheet" href="../css/thanks.css">
+    <link rel="stylesheet" href="../css/menu-mobile.css">
+    <link rel="icon" href="assetsPet/Logo.ico"> 
+    <!-- Google Tag Manager -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-04X0D24BYP');
-    </script>
+        (function(w,d,s,l,i) {
+          w[l]=w[l]||[];
+          w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+          var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+          j.async=true;
+          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+          f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PMXPBFD5');
+      </script>
     <title>Casa PetZen</title>
 </head>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMXPBFD5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <body>
     <header class="header ">
         <div>
             <nav class="navbar">
-                <img class="logo" src="assetsPet/LogoExtenso.png" alt="">
+                <a href="../default.php">
+                    <img class="logo" src="../assetsPet/LogoExtenso.png" alt="">
+                 </a>
                 <nav>
                     <ul>
-                        <li><a href="default.php">Home</a></li>
-                        <li><a style="cursor: pointer;" onclick="scrollToContact()">Sobre Nós</a></li>
-                        <li><a href="#cards-flex">Serviços</a></li>                       
-                        <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+                        <li><a href="../default.php">Home</a></li>
+                        <li><a href="../default.php#sobre-nos" >Sobre Nós</a></li>
+                        <li><a href="../default.php#cards-flex">Serviços</a></li>                       
+                        <li><a href="../default.php#Ctc">Contato</a></li>
                     </ul>
                     
                 </nav>
@@ -56,12 +62,12 @@
         <h2>Menu</h2>
 
         <ul>
-            <li><a onclick="fecharNav()" href="default.php">Home</a></li>
-            <li><a onclick="fecharNav()" href="daycare.html">Day Care</a></li>
-            <li><a onclick="fecharNav()" href="hospedagem.html">Hospedagem</a></li>
+            <li><a onclick="fecharNav()" href="../default.php">Home</a></li>
+            <li><a onclick="fecharNav()" href="Pages/daycare.html">Day Care</a></li>
+            <li><a onclick="fecharNav()" href="Pages/hospedagem.html">Hospedagem</a></li>
             <li><a onclick="fecharNav()" href="#cards-flex">Serviços</a></li>
-            <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToSobre()" >Sobre Nós</a></li>
-            <li><a onclick="fecharNav()" href="#footer">Contato</a></li>
+            <li><a href="../default.php#sobre-nos" >Sobre Nós</a></li>
+            <li><a onclick="fecharNav()" href="../default.php#Ctc">Contato</a></li>
             
         </ul>
 
@@ -76,6 +82,11 @@
         <article class="banner-imagem">
             <h1>Obrigado!</h1>
             <p>Logo entraremos em contato</p><br>
+            <a href="../default.php">Voltar</a>
+        
+                
+        
+            
 
            
 
@@ -87,10 +98,10 @@
     
     <!-- BOTAO WHATSAPP -->
 	<a target="_blank" class="btnInsta" href="https://www.instagram.com/casapetzen/">
-        <img width="65" src="icons/instagram.png" alt="">
+        <img width="65" src="../icons/instagram.png" alt="">
     </a>
     <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=[Site]Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">
-        <img width="65" src="icons/whatsapp.png" alt="">
+        <img width="65" src="../icons/whatsapp.png" alt="">
     </a>
 
     <!--  -->
@@ -105,33 +116,33 @@
             <h2>Atendimento</h2>
             <ul>
                 <li><a target="_blank" href="https://wa.me/5511949995555?text=[site]Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">Fale conosco</a></li>
-                <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+                <li><a href="../default.php#Ctc">Contato</a></li>
                
             </ul>
         </div>
-        <div class="listFooter">
+       <div class="listFooter">
             <h2>Informações</h2>
             <ul>
-                <li><a href="">contato@casapetzen.com.br</a></li>
-                <li><a href="">(11)94999-5555</a></li>
-                <li><a href="">Rua Aurélia 891, Vila Romana - São Paulo SP</a></li>
+                <li>contato@casapetzen.com.br</li>
+                <li>(11)94999-5555</li>
+                <li>Rua Aurélia 891, Vila Romana - São Paulo SP</li>
             </ul>
         </div>
         
         <div class="redesSociais">
             <div>
                 <a target="_blank" href="https://www.facebook.com/casapetzen">
-                    <img src="icons/facebook (1).png" alt="">
+                    <img src="../icons/facebook (1).png" alt="">
                 </a>
             </div>
             <div>
                 <a target="_blank" href="https://www.instagram.com/casapetzen/">
-                    <img src="icons/instagram (1).png" alt="">
+                    <img src="../icons/instagram (1).png" alt="">
                 </a>
             </div>
             <div>
                <a target="_blank" href="https://www.tiktok.com/@casapetzen">
-                <img src="icons/tiktok.png" alt="">
+                <img src="../icons/tiktok.png" alt="">
                </a>
             </div>
         </div>
@@ -154,6 +165,6 @@
     </script>
 </body>
 
-<script src="Js/main.js"></script>
+<script src="../Js/main.js"></script>
 
 </html>
