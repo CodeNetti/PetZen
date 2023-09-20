@@ -211,6 +211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul>
                 <li>contato@casapetzen.com.br</li>
                 <li>(11)94999-5555</li>
+                <li>(11)98476-1106</li>
                 <li>Rua Aurélia 891, Vila Romana - São Paulo SP</li>
             </ul>
         </div>
