@@ -1,0 +1,79 @@
+.avaliacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 5vh  0;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+.avaliacoes-card{
+    border: 1.8px solid rgb(224, 224, 224) ;
+    border-radius: 10px;
+    padding: 25px 15px;
+    max-width: 430px;
+}
+
+.avaliacoes-card .usuario {
+    padding: 5px 0;
+}
+
+.avaliacoes-card .usuario h2{
+    font-weight: 300;
+}
+
+.avaliacoes-card .usuario .usuario_img{
+    width: 55px;
+    height: 55px;
+}
+
+.avaliacoes-card .estrelas-avaliacoes{
+    padding: 10px 0;
+}
+
+
+.estrelas-avaliacoes{
+    display: flex;
+    gap: 5px;
+}
+
+.estrelas-avaliacoes img{
+    width: 15px;
+    height: 15px;
+}
+
+.avalie_tambem {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.avalie_tambem a{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 15px 25px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+
+}
+
+@media screen and (min-width:1120px) {
+    .avaliacoes{
+       flex-direction: row;
+    }
+
+    .avaliacoes-card{
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}

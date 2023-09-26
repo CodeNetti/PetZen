@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/css/avaliacoes.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu-mobile.css">
@@ -155,7 +156,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </main>
     <br><br><br> 
+
+
+    <!-- AVALIAÇÕES GOOGLE MAPS -->
+
+    <h1 class="title">Avaliações</h1>
+
+    <section class="avaliacoes">
+
+
+        <div class="avaliacoes-card">
+            <div class="usuario">
+                <img class="usuario_img" src="icons/usuario_avaliacoes.png" alt="">
+                <h2>Leila Correia</h2>
+            </div>
+
+            <div>
+                <div class="estrelas-avaliacoes">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                </div>
+                <p>
+                    Deixamos nosso filho pela primeira vez no PetZen.E adoramos a experiência! Eles mandaram fotos e vídeos p não ficar tão preocupada e com saudades. E abriram excessão num pedido que fiz que deixou a mamãe bem feliz! Ainda me devolveram ele limpinho de banho tomado! Jailson voltará mais vezes 🐾💚 …
+                </p>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="avaliacoes-card">
+            <div class="usuario">
+                <img class="usuario_img" src="icons/usuario_avaliacoes.png" alt="">
+                <h2>Amanda Fatore dos Santos</h2>
+            </div>
+
+            <div>
+                <div class="estrelas-avaliacoes">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                </div>
+                <p>
+                    Lugar muito aconchegante, perfeito para quem preza por uma qualidade de vida para seu animalzinho, companheiro, serviço de qualidade e completo, desde cuidado, alimentação e lazer, super recomendo
+                </p>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="avaliacoes-card">
+            <div class="usuario">
+                <img class="usuario_img" src="icons/usuario_avaliacoes.png" alt="">
+                <h2>Julio Barbiellini</h2>
+            </div>
+
+            <div>
+                <div class="estrelas-avaliacoes">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                    <img src="icons/estrela_avaliacao.png" alt="">
+                </div>
+                <p>
+                    Maravilhoso Lugar !!! indico a todos !!!
+                    se vc quer que seu filho seja tratado com todo amor e carinho esse é o lugar !! Obrigado Luan e Rosangela vcs são incriveis
+                </p>
+            </div>
+        </div>
+
+      
+
+        
+    </section>
     
+   <div class="avalie_tambem">
+        <a  href="https://www.google.com.br/maps/place/Casa+PetZen+-+Creche+e+Hotel+para+Cachorro/@-23.5297993,-46.6977204,17z/data=!4m8!3m7!1s0x94cef9a8492e8c87:0xe62168051dc7976b!8m2!3d-23.5297993!4d-46.6977204!9m1!1b1!16s%2Fg%2F11stb99v9r?entry=ttu">Avalie também!</a>
+   </div>
+
+   <br><br>
 
     <main class="contato" id="Ctc">
 
