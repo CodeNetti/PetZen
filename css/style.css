@@ -252,186 +252,6 @@ button {
 
 }
 
-.avaliacoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 5vh  0;
-    justify-content: center;
-    gap: 30px;
-}
-
-
-
-
-.avaliacoes-card{
-    border: 1.8px solid rgb(224, 224, 224) ;
-    border-radius: 10px;
-    padding: 25px 15px;
-    
-    max-width: 430px;
-}
-
-.avaliacoes-card .usuarioimg1 {
-    padding: 5px 165px;
-
-}
-
-.avaliacoes-card .usuario1 {
-    padding: 0px 110px;
-    
-}
-
-.avaliacoes-card .usuarioimg2 {
-    padding: 5px 165px;
-
-}
-
-.avaliacoes-card .usuario2 {
-    padding: 0px 30px;
-    
-}
-
-.avaliacoes-card .usuarioimg3 {
-    padding: 5px 165px;
-
-}
-
-.avaliacoes-card .usuario3 {
-    padding: 0px 120px;
-    
-}
-
-
-
-.avaliacoes-card .usuario h2{
-    font-weight: 300;
-}
-
-.avaliacoes-card .usuario .usuario_img{
-    width: 55px;
-    height: 55px;
-    
-}
-
-.avaliacoes-card .estrelas-avaliacoes{
-    padding: 20px 110px;
-}
-
-
-.estrelas-avaliacoes{
-    display: flex;
-    gap: 5px;
-}
-
-.estrelas-avaliacoes img{
-    width: 30px;
-    height: 30px;
-}
-.estrelas-avaliacoes img{
-    width: 30px;
-    height: 30px;
-}
-
-.textosava1 p
- {
-        padding-left: 10px;
-}
-.textosava2 p
-{
-    padding-left: 10px;
-}
-.textosava3 p
-{
-     padding-left: 10px;
-}
-    
-
-
-.textosglg1
-{
-
-    padding: 0px 160px;
-    padding-top: 80px;
-}
-
-.textosglg1 a{
-    
-    
-    text-decoration: none;
-    color: rgb(255, 128, 0);
-    
-}
-
-.textosglg2{
-    
-    padding: 0px 160px;
-    padding-top: 50px;
-    
-    
-    
-}
-.textosglg2 a{
-    
-    text-decoration: none;
-    color: rgb(255, 128, 0);
-    
-}
-
- .textosglg3 a{
-    
-    padding: 0px 160px;
-    text-decoration: none;
-    color: rgb(255, 128, 0);
-    
-}
-.avalie_tambem {
-    text-align: center;
-   
-}
-
-.avalie_tambem a{
-    background-color: rgb(255, 128, 0);
-    color: white;
-    padding: 15px 25px;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 1.1rem;
-    border-radius: 10px;
-
-}
-
-
-
-@media screen and (min-width:1120px) {
-    .avaliacoes{
-       flex-direction: row;
-    }
-
-    .avaliacoes-card{
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .textosava1 p
- {
-        padding-left: 10px;
-}
-.textosava2 p
-{
-    padding-left: 10px;
-}
-.textosava3 p
-{
-     padding-left: 10px;
-}
-    
-
-
-}
 
 /* CONTATO E SOBRE */
 
@@ -547,7 +367,112 @@ iframe {
 .parallax-banner section h1 {
     position: absolute;
 }
+/*AVALIAÇÕES*/
+.avaliacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 5vh  0;
+    justify-content: center;
+    gap: 30px;
+}
 
+
+
+
+.avaliacoes-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 1.8px solid rgb(33, 10, 10) ;
+    border-radius: 10px;
+    padding: 25px 15px;
+    max-width: 430px;
+}
+
+.avaliacoes-card .usuario {
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.avaliacoes-card .usuario h2{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.avaliacoes-card .usuario .usuario_img{
+    width: 70px;
+    height: 70px;
+}
+
+.avaliacoes-card div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.avaliacoes-card div .ver-mais{
+    color: rgb(255, 128, 0) ;
+    padding-top: 2vh;
+}
+
+
+
+
+
+.avaliacoes-card div .estrelas-avaliacoes{
+    padding-bottom: 10px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.estrelas-avaliacoes{
+    display: flex;
+    gap: 5px;
+}
+
+.estrelas-avaliacoes img{
+    width: 15px;
+    height: 15px;
+}
+
+.avalie_tambem {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.avalie_tambem a{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 15px 25px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+
+}
+
+@media screen and (min-width:1400px) {
+    .avaliacoes{
+       flex-direction: row;
+    }
+
+    .avaliacoes-card{
+        height:60vh ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+}
 
 /* BOTAO WHATSAPP */
 
