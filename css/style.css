@@ -122,17 +122,66 @@ button {
 .banner {
     display: flex;
     height: 100vh;
+    overflow: hidden; /* Oculta as partes que ultrapassam a altura do contêiner */
 }
-.banner .banner-imagem {
+/* Classe para os slides do carrossel */
+.slider {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: no-repeat center/cover url(../galery/Banner.jpeg);
+    background: no-repeat center/cover;
     padding: 0 15%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.5s;
 }
+
+/* Classe para o slide ativo (inicialmente visível) */
+.active {
+    opacity: 1;
+}
+
+
+.banner-imagem-1 {
+    background: no-repeat center/cover url(../galery/Banner.jpeg);
+}
+@media (max-width: 800px) {
+    
+    .banner-imagem-1 {
+        background: no-repeat center/cover url(../galery/image23.jpg);
+    }
+}
+
+/* Classe para a segunda imagem de fundo do carrossel */
+.banner-imagem-2 {
+    background: no-repeat center/cover url(../galery/image13.jpg);
+    
+}
+@media (max-width: 800px) {
+    
+    .banner-imagem-2 {
+        background: no-repeat center/cover url(../galery/image45.jpg);
+    }
+}
+
+
+.banner-imagem-3 {
+    background: no-repeat center/cover url(../galery/image46.jpg);
+}
+@media (max-width: 800px) {
+    
+    .banner-imagem-3 {
+        background: no-repeat center/cover url(../galery/image30.jpg);
+    }
+}
+
+/* Resto do seu CSS para a classe banner e outros estilos, como antes */
+/* ... */
+
+
 .banner .banner-imagem h1 {
     font-weight: 500;
     color: rgb(255, 255, 255);
