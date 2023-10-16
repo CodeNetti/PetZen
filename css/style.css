@@ -145,9 +145,11 @@ button {
 }
 
 
+
 .banner-imagem-1 {
     background: no-repeat center/cover url(../galery/Banner.jpeg);
 }
+
 @media (max-width: 800px) {
     
     .banner-imagem-1 {
@@ -157,9 +159,10 @@ button {
 
 /* Classe para a segunda imagem de fundo do carrossel */
 .banner-imagem-2 {
-    background: no-repeat center/cover url(../galery/image13.jpg);
+    background: no-repeat center/cover url(../assetsPet/a1.jpg);
     
 }
+
 @media (max-width: 800px) {
     
     .banner-imagem-2 {
@@ -170,11 +173,16 @@ button {
 
 .banner-imagem-3 {
     background: no-repeat center/cover url(../galery/image46.jpg);
+
 }
+
 @media (max-width: 800px) {
     
     .banner-imagem-3 {
         background: no-repeat center/cover url(../galery/image30.jpg);
+
+        
+        
     }
 }
 
@@ -189,6 +197,7 @@ button {
     text-align: center;
     margin-bottom: 15px;
 }
+
 .banner .banner-imagem a {
     text-decoration: none;
     color: white;
@@ -197,14 +206,39 @@ button {
     border-radius: 15px;
     transition: .5s;
     border: 1px solid white;
+    font-size: 24px;
+    display: inline-block;
+    animation: bounce 1s infinite alternate;
+    margin-top: 200px;
 }
-.banner .banner-imagem a:hover {
-    background-color: rgb(255, 128, 0);
+
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+
+.banner .slider  a {
+   background-color: rgba(12, 212, 69, 0.5);
 }
-.banner {
-    display: flex;
-    height: 100vh;
+
+.banner .banner-imagem-2   a{
+    background-color: rgba(12, 212, 69, 0.5);
 }
+
+.banner .banner-imagem-3  a {
+    background-color: rgba(12, 212, 69, 0.5);
+
+}
+
+/* Estilizando links no hover */
+
+
+
 .sobre-nos
 {
     display: flex;

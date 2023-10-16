@@ -45,8 +45,8 @@ function scrollToSobre() {
     var topPos = contatoSection.offsetTop - offset;
     window.scrollTo({ top: topPos, behavior: "smooth" });
 }
-function scrollToPlanoDayCare() {
-    var contatoSection = document.getElementById("planoDayCare");
+function scrollToDayCare() {
+    var contatoSection = document.getElementById("desc-zen");
     var offset = 80; // Ajuste este valor para definir a quantidade de deslocamento para cima
     var topPos = contatoSection.offsetTop - offset;
     window.scrollTo({ top: topPos, behavior: "smooth" });
@@ -103,3 +103,5 @@ function startSlider() {
 
 // Inicia o temporizador
 startSlider();
+
+

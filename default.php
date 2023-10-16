@@ -76,18 +76,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-
-  <section class="banner" id="banner">
-    <article class="slider banner-imagem banner-imagem-1 active">
-        <a style="cursor: pointer;" onclick="scrollToSobre()">Conheça-nos</a>
-    </article>
-    <article class="slider banner-imagem banner-imagem-2">
-        <a style="cursor: pointer;" onclick="scrollToSobre()">Conheça-nos</a>
-    </article>
-    <article class="slider banner-imagem banner-imagem-3">
-        <a style="cursor: pointer;" onclick="scrollToSobre()">Conheça-nos</a>
-    </article>
-</section>
+    <section class="banner" id="banner">
+        <div class="slider banner-imagem banner-imagem-1 active">
+            <a style="cursor: pointer;"  onclick="scrollToSobre()">Conheça-nos</a>
+        </div>
+        <div class="slider banner-imagem banner-imagem-2">
+            <a style="cursor: pointer;"  onclick="scrollToSobre()">Conheça-nos</a>
+        </div>
+        <div class="slider banner-imagem banner-imagem-3">
+            <a style="cursor: pointer;"  onclick="scrollToSobre()">Conheça-nos</a>
+        </div>
+    </section>
+    
+    
+    
 
 
     
