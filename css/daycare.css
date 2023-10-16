@@ -136,39 +136,39 @@ button {
 }
 
 .banner-imagem-1 {
-    background: no-repeat center/cover url(../galery/Banner.jpeg);
+    background: no-repeat center/cover url(../galery/image47.jpg);
 }
 
 @media (max-width: 800px) {
     
     .banner-imagem-1 {
-        background: no-repeat center/cover url(../galery/image23.jpg);
+        background: no-repeat center/cover url(../galery/image59.jpg);
     }
 }
 
 /* Classe para a segunda imagem de fundo do carrossel */
 .banner-imagem-2 {
-    background: no-repeat center/cover url(../assetsPet/a1.jpg);
+    background: no-repeat center/cover url(../galery/image53.jpeg);
     
 }
 
 @media (max-width: 800px) {
     
     .banner-imagem-2 {
-        background: no-repeat center/cover url(../galery/image45.jpg);
+        background: no-repeat center/cover url(../galery/image56.jpg);
     }
 }
 
 
 .banner-imagem-3 {
-    background: no-repeat center/cover url(../galery/image46.jpg);
+    background: no-repeat center/cover url(../galery/image07.jpeg);
 
 }
 
 @media (max-width: 800px) {
     
     .banner-imagem-3 {
-        background: no-repeat center/cover url(../galery/image30.jpg);
+        background: no-repeat center/cover url(../galery/image60.png);
 
         
         
