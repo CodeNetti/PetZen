@@ -121,28 +121,50 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: no-repeat center/cover url(../galery/image01.jpeg);
+    background: no-repeat center/cover url(../galery/image53.jpeg);
     padding: 0 15%;
 }
+@media (max-width: 800px) {
+
+    .banner  .banner-imagem {
+        background: no-repeat center/cover url(../galery/image06.jpg);
+    }
+}
+
 .banner .banner-imagem h1 {
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    font-size: 4em;
-    text-align: center;
-    margin-bottom: 15px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 200px;
+        }
+        .banner .banner-imagem a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        padding: 12px 15px;
+        border-radius: 15px;
+        transition: .5s;
+        border: 1px solid white;
+        font-size: 24px;
+        display: inline-block;
+        animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(20px);
+        }
+        }
+.banner   a {
+            background-color: rgba(12, 212, 69, 0.9 );
 }
-.banner .banner-imagem a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    padding: 12px 15px;
-    border-radius: 3px;
-    transition: .5s;
-    border: 1px solid white;
-}
-.banner .banner-imagem a:hover {
-    background-color: rgb(255, 128, 0);
-}
+        
+        
+        
 .banner {
     display: flex;
     height: 100vh;
