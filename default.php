@@ -110,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="card">
               <a href="Pages/galeria.html">
-              <img src="assetsPet/Galeria.jpg" alt="" class="sobre-nos-img">
+              <img src="galery/image22.jpg" alt="" class="sobre-nos-img">
               </a>
                <a href="Pages/galeria.html">
                 <div class="card-content">
